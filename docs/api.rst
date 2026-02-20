@@ -40,5 +40,8 @@ API Reference
 .. automodule:: adafruit_seesaw.samd09
    :members:
 
+.. automodule:: adafruit_seesaw.spi
+   :members:
+
 .. automodule:: adafruit_seesaw.tftshield18
    :members:
