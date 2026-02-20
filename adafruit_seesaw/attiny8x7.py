@@ -30,3 +30,12 @@ class ATtiny8x7_Pinmap:
 
     """No pins on this board are capable of touch input"""
     touch_pins = ()
+
+    #: SPI MOSI pin (PA1)
+    spi_mosi_pin = 1
+    #: SPI MISO pin (PA2)
+    spi_miso_pin = 2
+    #: SPI SCK pin (PA3)
+    spi_sck_pin = 3
+    #: Default SPI chip-select pin (PA4); can be any free GPIO
+    spi_cs_pin = 4
